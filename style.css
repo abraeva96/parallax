@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fly {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sky {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.ocean {
+    top: 55%;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+
+.mount1 {
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    z-index: 5;
+}
+
+.mount2 {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 43%;
+    width: 48%;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 8%;
+    width: 40%;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 25%;
+    right: 45%;
+}
+
+.cloud3 {
+    position: absolute;
+    left: 51%;
+    top: 15%;
+}
+
+.cloud4 {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.cloud5 {
+    position: absolute;
+    top: 30%;
+}
+
+.cloud6 {
+    position: absolute;
+    right: 17%;
+    top: 20%;
+}
+
+.cloud7 {
+    position: absolute;
+    left: 10%;
+    top: 38%;
+    width: 50%;
+}
+
+.birds {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    /* transform: translateY(1px); */
+}
+
+.sun {
+    /* z-index: 2; */
+    left: 44%;
+    top: 49%;
+    position: absolute;
+}
+
+.wave1 {
+    z-index: 1;
+    bottom: 35%;
+    width: 100%;
+    position: absolute;
+}
+
+.wave2 {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    bottom: 12%;
+}
+
+.wave3 {
+    z-index: 1;
+    width: 60%;
+    bottom: 12%;
+    position: absolute;
+}
+
+.wave4 {
+    z-index: 1;
+    right: 55%;
+    bottom: 27%;
+    position: absolute;
+}
+
+.wave5 {
+    z-index: 1;
+    width: 11%;
+    position: absolute;
+    bottom: 26%;
+    right: 40%;
+}
+
+.wave6 {
+    z-index: 1;
+    width: 12%;
+    position: absolute;
+    bottom: 14%;
+    right: 28%;
+    /* transition: 0.2s; */
+}
+
+
+/* .sun2 {
+    position: absolute;
+    left: 47%;
+    top: 33%;
+    z-index: -1;
+} */
+
+.sunlight {
+    z-index: -1;
+    left: 42%;
+    top: 44%;
+    position: absolute;
+    background-blend-mode: screen;
+    mix-blend-mode: screen;
+    width: 140px;
+    height: 140px;
+    transform: rotate(-21.08deg);
+    background: radial-gradient(50% 50% at 50.01% 49.98%, #FFE070 0%, #000 100%);
+}
